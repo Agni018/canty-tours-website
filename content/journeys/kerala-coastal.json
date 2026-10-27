@@ -1,0 +1,37 @@
+{
+  "name": "Cliffs, Beaches & Capital Heritage",
+  "order": 50,
+  "destination": "Kerala",
+  "region": "Kerala",
+  "style": "Beaches",
+  "styles": [
+    "Family",
+    "Culture & heritage"
+  ],
+  "days": 4,
+  "nights": 3,
+  "image": "/assets/varkala.jpg",
+  "alt": "Varkala Beach beneath the coastal cliffs",
+  "places": [
+    "Kovalam",
+    "Varkala",
+    "Trivandrum"
+  ],
+  "route": "Trivandrum → Kovalam (Varkala day trip) → Trivandrum",
+  "description": "A beach base with day trips along the coast and into the city.",
+  "pace": "Three nights in Kovalam with day excursions",
+  "ideal": "Beach lovers & families",
+  "highlights": "Varkala cliffs, Kovalam beaches, Trivandrum heritage",
+  "itinerary": [
+    "Settle into Kovalam, then explore Lighthouse Beach, Eve’s Beach and Azhimala Temple.",
+    "Make a Varkala day trip for Janardhana Swamy Temple, Sivagiri Mutt and the cliffside beach, returning to Kovalam.",
+    "Explore Trivandrum’s Padmanabhaswamy Temple, palace, museums, art gallery and other city attractions before returning to Kovalam.",
+    "Return to Trivandrum for departure, allowing for shopping or sightseeing if time permits."
+  ],
+  "notes": "Beach activities and Ayurveda cost extra. Confirm attraction opening days and temple entry requirements.",
+  "source": {
+    "title": "4 Days 3 Nights Trivandrum–Kovalam–Varkala",
+    "url": "https://www.paradise-kerala.com/tourpackage/Raviz-exclusive-packages/4days-3nights-trivandrum-kovalam-varkala/",
+    "reviewed": "2026-10-19"
+  }
+}

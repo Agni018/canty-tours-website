@@ -1,0 +1,12 @@
+{
+  "name": "Houseboat",
+  "order": 80,
+  "image": "/assets/destinations/houseboat.jpg",
+  "alt": "A traditional Kerala houseboat on the backwaters near Alleppey",
+  "credit": {
+    "creator": "Wouter Hagens",
+    "license": "Public domain (released by photographer)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:House_boat_1.JPG#Licensing",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:House_boat_1.JPG"
+  }
+}

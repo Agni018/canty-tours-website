@@ -1,0 +1,13 @@
+{
+  "name": "Madurai",
+  "order": 220,
+  "region": "South",
+  "image": "/assets/destinations/madurai.jpg",
+  "alt": "Ornate gopuram of Meenakshi Temple in Madurai",
+  "credit": {
+    "creator": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Meenakshi_Temple,_Gopuram,_Madurai,_India.jpg"
+  }
+}

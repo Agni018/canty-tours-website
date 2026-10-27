@@ -1,0 +1,36 @@
+{
+  "name": "Kochi Heritage and Kumarakom Islands",
+  "order": 40,
+  "destination": "Kerala",
+  "region": "Kerala",
+  "style": "Family",
+  "styles": [
+    "Slow escapes",
+    "Culture & heritage"
+  ],
+  "days": 3,
+  "nights": 2,
+  "image": "/assets/destinations/kumarakom.jpg",
+  "alt": "A broad view of the Kumarakom backwaters near the bird sanctuary",
+  "places": [
+    "Kochi",
+    "Fort Kochi",
+    "Kumarakom"
+  ],
+  "route": "Kochi → Kumarakom → Kochi",
+  "description": "Pair city heritage with a quieter day by the backwaters.",
+  "pace": "City sightseeing followed by a backwater stay",
+  "ideal": "Families & culture lovers",
+  "highlights": "Fort Kochi, Pathiramanal Island, Backwater sunset",
+  "itinerary": [
+    "Explore Fort Kochi's churches, fishing nets and Navy Museum, continue to Mattancherry Palace and the synagogue, then enjoy Marine Drive and boating.",
+    "Continue to Kumarakom for village exploration, a boat-accessed visit to Pathiramanal Island and a backwater sunset, adding the Bird Sanctuary if time allows.",
+    "Return to Kochi for departure, with Kadamakkudy village or Hill Palace sightseeing when the schedule permits."
+  ],
+  "notes": "Bird Sanctuary and departure-day stops depend on time. Motorised boating and Ayurveda are extra-cost options.",
+  "source": {
+    "title": "3 Days 2 Nights Cochin–Kumarakom–Cochin",
+    "url": "https://www.paradise-kerala.com/tourpackage/KTDC-exclusive-packages/3days-2nights-cochin-kumarakom-cochin/",
+    "reviewed": "2026-10-19"
+  }
+}

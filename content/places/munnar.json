@@ -1,0 +1,12 @@
+{
+  "name": "Munnar",
+  "order": 40,
+  "image": "/assets/destinations/munnar.jpg",
+  "alt": "Misty green tea gardens on the rolling hills of Munnar",
+  "credit": {
+    "creator": "Vivek Kumar",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "sourcePage": "https://unsplash.com/photos/tea-gardens-on-munnar-hills-JS_ohjocm00"
+  }
+}

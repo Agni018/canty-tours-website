@@ -1,0 +1,158 @@
+/* Fixed to the top of every page: see-through with light text over the photo at the top, solid
+   cream with ink text once the page scrolls (Header sets .solid). Only colours change, so the
+   switch is a colour fade. The hero's top padding leaves room for it. */
+.bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  color: var(--on-dark);
+  border-bottom: 1px solid transparent;
+  transition:
+    background-color var(--dur-base) var(--ease-out),
+    border-color var(--dur-base) var(--ease-out),
+    color var(--dur-base) var(--ease-out);
+}
+.bar.solid {
+  background-color: color-mix(in srgb, var(--cream) 94%, transparent);
+  border-bottom-color: var(--line);
+  color: var(--ink);
+  backdrop-filter: blur(12px);
+}
+/* Width and side margins come from the global "wrap" class, so it lines up with the page. */
+.header {
+  position: relative;
+  height: 94px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header nav {
+  display: flex;
+  gap: 32px;
+  margin: auto;
+  font-size: var(--text-sm);
+  font-weight: 500;
+}
+/* Underline grows from the left on hover. */
+.header nav a {
+  position: relative;
+  padding: 6px 0;
+  transition: color var(--dur-fast) var(--ease-out);
+}
+.header nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--dur-base) var(--ease-out);
+}
+.header nav a:hover {
+  color: var(--accent-light);
+}
+.solid .header nav a:hover {
+  color: var(--orange);
+}
+.header nav a:hover::after {
+  transform: scaleX(1);
+}
+.menuToggle {
+  display: none;
+}
+@keyframes menuIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+}
+
+/* Below 1100px the links would wrap, so they move into a menu. */
+@media (max-width: 1100px) {
+  .header {
+    gap: 22px;
+  }
+  /* The open menu is a cream card under the header, so its links switch back to ink. */
+  .header nav {
+    display: none;
+    position: absolute;
+    top: 94px;
+    left: 0;
+    right: 0;
+    background: var(--cream);
+    color: var(--ink);
+    border-radius: 12px;
+    padding: 16px 24px 24px;
+    box-shadow: 0 12px 24px -12px #0003;
+    flex-direction: column;
+    gap: 4px;
+    font-size: var(--text-lg);
+  }
+  .header nav a:hover {
+    color: var(--orange);
+  }
+  .header nav.open {
+    display: flex;
+    animation: menuIn var(--dur-base) var(--ease-out);
+  }
+  .header nav a::after {
+    display: none;
+  }
+  .menuToggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 0;
+    background: transparent;
+    padding: 10px 0;
+    font-size: var(--text-sm);
+    margin-left: auto;
+  }
+}
+@media (max-width: 800px) {
+  .header {
+    height: 82px;
+  }
+  .header nav {
+    top: 82px;
+  }
+  /* !important beats Button's .button.small padding. */
+  .header .navCta {
+    padding: 10px 14px !important;
+  }
+}
+@media (max-width: 540px) {
+  .header {
+    height: 76px;
+    gap: 8px;
+  }
+  .header nav {
+    top: 76px;
+  }
+  /* Phones: the menu button shows just its icon (still named "Menu") at a 44px tap size,
+     and the CTA drops its arrow, so the header fits on one line down to 320px. */
+  .menuLabel {
+    display: none;
+  }
+  .menuToggle {
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+  }
+  .menuToggle svg {
+    width: 1.4em;
+    height: 1.4em;
+  }
+  .header .navCta {
+    font-size: var(--text-xs);
+    white-space: nowrap;
+  }
+  .header .navCta svg {
+    display: none;
+  }
+}

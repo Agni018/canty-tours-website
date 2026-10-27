@@ -1,0 +1,13 @@
+{
+  "name": "Rameswaram",
+  "order": 230,
+  "region": "South",
+  "image": "/assets/destinations/rameswaram.jpg",
+  "alt": "Pamban Bridge crossing the sea near Rameswaram",
+  "credit": {
+    "creator": "Msudhakardce",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Pamban_Bridge,_Rameswaram.jpg"
+  }
+}

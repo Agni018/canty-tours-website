@@ -1,0 +1,32 @@
+{
+  "name": "Fort Kochi, Mattancherry and Cherai Beach",
+  "order": 120,
+  "destination": "Kerala",
+  "region": "Kerala",
+  "style": "Culture & heritage",
+  "styles": [
+    "Beaches",
+    "Family",
+    "Slow escapes"
+  ],
+  "days": 3,
+  "nights": 2,
+  "image": "/assets/destinations/fort-kochi.jpg",
+  "alt": "Chinese fishing nets silhouetted against the evening sky at Fort Kochi",
+  "places": [
+    "Kochi",
+    "Fort Kochi",
+    "Cherai"
+  ],
+  "route": "Fort Kochi → Cherai → Kochi",
+  "description": "Old harbour lanes first, then a quieter stretch of sand on Vypin Island.",
+  "pace": "One night in Fort Kochi and one by the beach",
+  "ideal": "Families, couples & heritage lovers",
+  "highlights": "Chinese fishing nets, Mattancherry Palace, Jew Town, Cherai Beach",
+  "itinerary": [
+    "Settle into Fort Kochi and walk past the Chinese fishing nets, St Francis Church and Santa Cruz Basilica, then continue to Mattancherry Palace, Jew Town and the Paradesi Synagogue, with an optional Kathakali performance in the evening.",
+    "Cross to Vypin Island for Cherai Beach, with the afternoon free for the shore and the backwaters that run behind it, and sunset by the sea.",
+    "Return to Kochi for departure, adding Marine Drive or shopping if your schedule allows."
+  ],
+  "notes": "Mattancherry Palace and the Paradesi Synagogue each close on certain days of the week, so the heritage day is planned around them."
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Thekkady",
+  "order": 60,
+  "image": "/assets/destinations/thekkady.jpg",
+  "alt": "Thekkady Lake surrounded by the green Periyar Wildlife Sanctuary",
+  "credit": {
+    "creator": "Kir360",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Thekkady_Lake.jpg"
+  }
+}

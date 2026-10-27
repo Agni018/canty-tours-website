@@ -1,0 +1,31 @@
+{
+  "name": "Under Ladakh’s big sky",
+  "order": 200,
+  "destination": "Ladakh",
+  "region": "North",
+  "style": "Mountains",
+  "days": 7,
+  "nights": 6,
+  "image": "/assets/ladakh.jpg",
+  "alt": "Blue Pangong Lake surrounded by Ladakh mountains",
+  "places": [
+    "Leh",
+    "Nubra Valley",
+    "Pangong"
+  ],
+  "route": "Leh → Nubra Valley → Pangong → Leh",
+  "description": "Wide-open landscapes, mountain monasteries and a whole new perspective.",
+  "pace": "High altitude; gradual acclimatisation",
+  "ideal": "Mountain lovers & experienced travellers",
+  "highlights": "Leh, Nubra landscapes, Pangong Lake",
+  "planningNote": "High-altitude travel needs individual planning; discuss suitability, acclimatisation, permits and road conditions before booking.",
+  "itinerary": [
+    "Arrive in Leh. Keep the day restful for acclimatisation.",
+    "Another gentle day in Leh, with light local exploration if you feel well.",
+    "Subject to conditions and permits, travel towards Nubra Valley.",
+    "Explore Nubra at a comfortable pace, with agreed local stops.",
+    "Continue towards Pangong only if routes, permits and acclimatisation allow.",
+    "Return to Leh with time to rest.",
+    "Depart from Leh. Build in flexibility for weather-related changes."
+  ]
+}

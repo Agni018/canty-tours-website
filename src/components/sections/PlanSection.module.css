@@ -1,0 +1,68 @@
+.section {
+  background: var(--ink);
+  padding: 88px 0;
+  color: var(--on-dark);
+  position: relative;
+  overflow: hidden;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 90px;
+}
+.copy h2 {
+  font-size: var(--text-h1);
+}
+.copy h2 em {
+  color: var(--accent-light);
+}
+.copy > p:not(.eyebrow) {
+  color: var(--on-dark-muted);
+  font-size: var(--text-base);
+  margin-top: 24px;
+}
+.copy > p.other {
+  font-size: var(--text-sm);
+  max-width: 320px;
+}
+.phone {
+  display: block;
+  width: fit-content;
+  font: 400 var(--text-xl) var(--serif);
+  margin-top: 28px;
+  transition: color var(--dur-fast) var(--ease-out);
+}
+.phone:hover {
+  color: var(--accent-light);
+}
+.phone svg {
+  margin-left: 8px;
+}
+.note a {
+  color: var(--on-dark);
+  border-bottom: 1px solid #ffffff77;
+  transition: border-color var(--dur-fast) var(--ease-out);
+}
+.note a:hover {
+  border-color: var(--on-dark);
+}
+
+@media (max-width: 1100px) {
+  .grid {
+    gap: 50px;
+  }
+}
+@media (max-width: 800px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .copy > p:not(.eyebrow) {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 540px) {
+  .section {
+    padding: 56px 0;
+  }
+}

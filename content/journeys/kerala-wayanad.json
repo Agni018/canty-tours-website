@@ -1,0 +1,36 @@
+{
+  "name": "Wayanad Caves, Lakes & Forest Trails",
+  "order": 30,
+  "destination": "Kerala",
+  "region": "Kerala",
+  "style": "Mountains",
+  "styles": [
+    "Family",
+    "Slow escapes"
+  ],
+  "days": 4,
+  "nights": 3,
+  "image": "/assets/wayanad.jpg",
+  "alt": "Lush green mountains in Wayanad",
+  "places": [
+    "Wayanad",
+    "Kozhikode"
+  ],
+  "route": "Kozhikode → Wayanad → Kozhikode",
+  "description": "Use one hill-country base for nature and local sightseeing.",
+  "pace": "Three nights in one base with excursions",
+  "ideal": "Nature lovers & small groups",
+  "highlights": "Edakkal Caves, Soochipara Falls, Banasura Sagar Dam",
+  "itinerary": [
+    "Travel from Kozhikode through Thamarassery Ghat to Lakkidi, with the afternoon free around your stay.",
+    "Spend the day among Edakkal Caves, Soochipara Falls and Pookode Lake before returning to base.",
+    "Visit Banasura Sagar Dam and Lakkidi Viewpoint, then return for a forest and coffee-plantation walk if arranged.",
+    "Allow time for early birdwatching before leaving Wayanad for Kozhikode."
+  ],
+  "notes": "Guided walks, birdwatching and plantation visits depend on arrangements at the selected stay.",
+  "source": {
+    "title": "4 Days 3 Nights Calicut–Wayanad–Calicut",
+    "url": "https://www.paradise-kerala.com/tourpackage/Cgh-earth-exclusive-packages/4days-3nights-calicut-wayanad-calicut/",
+    "reviewed": "2026-10-19"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Kumarakom",
+  "order": 100,
+  "image": "/assets/destinations/kumarakom.jpg",
+  "alt": "A broad view of the Kumarakom backwaters near the bird sanctuary",
+  "credit": {
+    "creator": "Vis M",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Kumarakom_backwaters_panorama.jpg"
+  }
+}

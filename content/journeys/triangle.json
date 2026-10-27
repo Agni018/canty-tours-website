@@ -1,0 +1,28 @@
+{
+  "name": "India’s golden beginning",
+  "order": 230,
+  "destination": "Golden Triangle",
+  "region": "North",
+  "style": "Culture & heritage",
+  "days": 5,
+  "nights": 4,
+  "image": "/assets/taj.jpg",
+  "alt": "Taj Mahal and its reflecting pool in Agra",
+  "places": [
+    "Delhi",
+    "Agra",
+    "Jaipur"
+  ],
+  "route": "Delhi → Agra → Jaipur",
+  "description": "Three iconic cities. Centuries of stories. A memorable first chapter.",
+  "pace": "Full days of sightseeing & road transfers",
+  "ideal": "First-time visitors & heritage lovers",
+  "highlights": "Delhi heritage, Taj Mahal, Jaipur",
+  "itinerary": [
+    "Arrive in Delhi and explore a few agreed city highlights.",
+    "Travel to Agra with time for the city’s heritage sights.",
+    "Visit the Taj Mahal on an operating day, then travel to Jaipur.",
+    "Explore Jaipur’s forts, palaces and colourful bazaars.",
+    "Depart from Jaipur, or discuss a return transfer to Delhi."
+  ]
+}

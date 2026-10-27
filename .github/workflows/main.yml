@@ -1,0 +1,65 @@
+# Checks every pull request; on main it also builds the static site and deploys it to GitHub Pages.
+# Requires: repo Settings → Pages → Source = "GitHub Actions".
+name: Check and deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deploy at a time; a running deploy is never cancelled halfway.
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Configure GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - run: npm ci
+      - run: npm run format:check
+      - run: npm test
+
+      - name: Build static site
+        run: npm run build
+        env:
+          # e.g. "/canty-tours-uat" when served from <user>.github.io/canty-tours-uat
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          # Full public address, for link previews and search data (see app/layout.tsx)
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+
+      - name: Upload site
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

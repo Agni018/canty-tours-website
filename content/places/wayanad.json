@@ -1,0 +1,12 @@
+{
+  "name": "Wayanad",
+  "order": 240,
+  "image": "/assets/wayanad.jpg",
+  "alt": "Lush green mountains in Wayanad",
+  "credit": {
+    "creator": "Niranjan V S",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "sourcePage": "https://unsplash.com/photos/mountains-covered-in-lush-green-vegetation-stand-tall-rTiBFR2c99c"
+  }
+}

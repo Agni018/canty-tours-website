@@ -1,0 +1,30 @@
+{
+  "name": "Thenmala Forests and Palaruvi Falls",
+  "order": 110,
+  "destination": "Kerala",
+  "region": "Kerala",
+  "style": "Family",
+  "styles": [
+    "Mountains",
+    "Slow escapes"
+  ],
+  "days": 2,
+  "nights": 1,
+  "image": "/assets/destinations/palaruvi.jpg",
+  "alt": "Palaruvi Falls streaming down a steep rock face into a boulder-strewn pool",
+  "places": [
+    "Trivandrum",
+    "Thenmala",
+    "Palaruvi Falls"
+  ],
+  "route": "Trivandrum → Thenmala → Trivandrum",
+  "description": "A short forest break with a waterfall at its heart.",
+  "pace": "One night near the forest between two easy drives",
+  "ideal": "Families, nature lovers & short-break travellers",
+  "highlights": "Thenmala ecotourism, Thenmala Dam, Palaruvi Falls",
+  "itinerary": [
+    "Drive from Trivandrum to Thenmala for its ecotourism zones, including the suspension bridge, forest walks and deer rehabilitation centre, with a stop at Thenmala Dam.",
+    "Continue to Palaruvi Falls in the morning, reached from the forest department’s entry point, before returning to Trivandrum."
+  ],
+  "notes": "Palaruvi is a seasonal waterfall managed by the forest department: it flows strongest in the rains, and access can close in very heavy weather. Some Thenmala activities cost extra."
+}

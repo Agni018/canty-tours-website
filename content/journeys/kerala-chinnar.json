@@ -1,0 +1,32 @@
+{
+  "name": "Munnar Tea Hills and Chinnar Wildlife",
+  "order": 140,
+  "destination": "Kerala",
+  "region": "Kerala",
+  "style": "Mountains",
+  "styles": [
+    "Family"
+  ],
+  "days": 4,
+  "nights": 3,
+  "image": "/assets/destinations/chinnar.jpg",
+  "alt": "Rugged peaks above the forested slopes of Chinnar Wildlife Sanctuary",
+  "places": [
+    "Kochi",
+    "Munnar",
+    "Marayoor",
+    "Chinnar"
+  ],
+  "route": "Kochi → Munnar (Marayoor and Chinnar day trip) → Kochi",
+  "description": "Tea country, then the drier, wilder side of the hills beyond Marayoor.",
+  "pace": "Three nights in Munnar with a full day out to Chinnar",
+  "ideal": "Nature lovers, families & keen walkers",
+  "highlights": "Tea estates, Eravikulam, Marayoor sandalwood forest, Chinnar treks",
+  "itinerary": [
+    "Drive from Kochi to Munnar past Cheeyappara and Valara waterfalls, tea estates and spice gardens.",
+    "Visit Eravikulam National Park and the Tea Museum in the morning, then Mattupetty Dam, Echo Point and Kundala Lake.",
+    "Head north past Lakkam waterfall to Marayoor’s sandalwood forest and dolmens, then continue to Chinnar Wildlife Sanctuary for a guided trek or the watchtower before returning to Munnar.",
+    "Return to Kochi for departure, adding city sightseeing if time allows."
+  ],
+  "notes": "Eravikulam National Park closes for the Nilgiri tahr calving season, usually between February and April, and the Tea Museum closes on Mondays. Chinnar treks are run by the forest department and booked at the checkpost."
+}

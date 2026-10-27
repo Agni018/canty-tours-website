@@ -1,0 +1,27 @@
+{
+  "name": "A little more Goa",
+  "order": 210,
+  "destination": "Goa",
+  "region": "West",
+  "style": "Beaches",
+  "days": 4,
+  "nights": 3,
+  "image": "/assets/goa.jpg",
+  "alt": "Palm trees along a beach in Goa",
+  "places": [
+    "Panaji",
+    "Old Goa",
+    "South Goa"
+  ],
+  "route": "Panaji → Old Goa → South Goa",
+  "description": "Colourful streets, coastal flavours and days that end by the sea.",
+  "pace": "Relaxed, with optional sightseeing",
+  "ideal": "Beach lovers, couples & small groups",
+  "highlights": "Panaji lanes, Old Goa, quiet beach time",
+  "itinerary": [
+    "Arrive in Goa and settle into your preferred coastal base.",
+    "Explore Panaji’s heritage streets and Old Goa, at your chosen pace.",
+    "Leave a full day for South Goa’s beaches or an optional local experience.",
+    "Enjoy a slow morning before your onward journey."
+  ]
+}

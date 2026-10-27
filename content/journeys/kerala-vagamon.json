@@ -1,0 +1,34 @@
+{
+  "name": "Vagamon Meadows and Hill Shrines",
+  "order": 70,
+  "destination": "Kerala",
+  "region": "Kerala",
+  "style": "Mountains",
+  "styles": [
+    "Slow escapes",
+    "Family"
+  ],
+  "days": 2,
+  "nights": 1,
+  "image": "/assets/destinations/vagamon.jpg",
+  "alt": "The rolling green meadows and hills of Vagamon",
+  "places": [
+    "Vagamon",
+    "Kochi"
+  ],
+  "route": "Vagamon → Kochi",
+  "description": "A compact hill escape with time for local landscapes.",
+  "pace": "One hill-country night before returning to Kochi",
+  "ideal": "Hill lovers & short-break travellers",
+  "highlights": "Pine woods, Meadows, Hill shrines",
+  "itinerary": [
+    "Explore Vagamon's pine woods, tea estates, meadows and orchid garden, along with Thangalpara, Murukan Mala and Kurisumala, before staying overnight.",
+    "Return to Kochi, allowing for heritage sightseeing or shopping if time permits, then depart from the airport, railway station or bus station."
+  ],
+  "notes": "Adventure activities are suggested for a two-night stay, with tickets charged separately. Kochi visits depend on departure time.",
+  "source": {
+    "title": "2 Days 1 Night Vagamon",
+    "url": "https://www.paradise-kerala.com/tourpackage/Kerala-Tour-Packages/2days-1night-lovely-vagamon/",
+    "reviewed": "2026-10-19"
+  }
+}

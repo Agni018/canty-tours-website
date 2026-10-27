@@ -1,0 +1,176 @@
+/* Cards rise in one after another (--i = position in the grid) whenever the grid is rebuilt. */
+/* After a destination search the matching cards pulse an orange ring once. */
+@keyframes found {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--orange) 0%, transparent);
+  }
+  15%,
+  60% {
+    box-shadow:
+      0 0 0 3px var(--orange),
+      0 18px 40px color-mix(in srgb, var(--orange) 16%, transparent);
+  }
+}
+@keyframes cardIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+.card {
+  position: relative;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  animation: cardIn var(--dur-reveal) var(--ease-out) backwards;
+  animation-delay: calc(min(var(--i, 0), 8) * 60ms);
+  transition:
+    transform var(--dur-base) var(--ease-out),
+    box-shadow var(--dur-base) var(--ease-out);
+}
+.card.found {
+  animation-name: cardIn, found;
+  animation-duration: var(--dur-reveal), 2.8s;
+  animation-delay: calc(min(var(--i, 0), 8) * 60ms), 450ms;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 44px -26px rgb(25 62 54 / 0.5);
+}
+.photo {
+  height: 225px;
+  position: relative;
+  overflow: hidden;
+}
+.photo img {
+  height: 100%;
+  transition: transform var(--dur-reveal) var(--ease-out);
+}
+.card:hover .photo img {
+  transform: scale(1.05);
+}
+.photo .tag {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: var(--text-label);
+  font-weight: 600;
+}
+.body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.meta {
+  font-size: var(--text-label);
+  font-weight: 600;
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.body h3 {
+  font: 400 var(--text-h3) / 1.1 var(--serif);
+  letter-spacing: var(--tracking-heading);
+  margin-bottom: 10px;
+  min-height: 2.2em;
+}
+.route {
+  font-size: var(--text-xs);
+  min-height: 2lh;
+}
+/* The title link covers the card, so the whole card opens the journey. */
+.link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.link:focus-visible {
+  outline: none;
+}
+.card:has(.link:focus-visible) {
+  outline: 3px solid var(--marigold);
+  outline-offset: 3px;
+}
+.highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 14px 0 22px;
+  padding: 0;
+  list-style: none;
+}
+.highlights li {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--green-soft);
+  font-size: var(--text-xs);
+  font-weight: 500;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border-top: 1px solid var(--line);
+  margin-top: auto;
+  padding-top: 14px;
+}
+.view {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  transition: color var(--dur-fast) var(--ease-out);
+}
+.card:hover .view {
+  color: var(--orange);
+}
+/* Above the card-wide link, so it toggles instead of opening the journey. */
+.compare {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  font-size: var(--text-xs);
+  color: var(--muted);
+  cursor: pointer;
+}
+.compare input {
+  accent-color: var(--ink);
+  height: 18px;
+  width: 18px;
+}
+
+@media (max-width: 1100px) {
+  .photo {
+    height: 195px;
+  }
+  .body {
+    padding: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .body h3 {
+    min-height: 0;
+  }
+}
+@media (max-width: 540px) {
+  .photo {
+    height: 230px;
+  }
+  .body {
+    padding: 22px;
+  }
+  .route {
+    min-height: 0;
+  }
+}

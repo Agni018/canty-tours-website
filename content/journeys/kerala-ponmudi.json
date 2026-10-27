@@ -1,0 +1,39 @@
+{
+  "name": "Trivandrum, Ponmudi Hills and Kovalam",
+  "order": 100,
+  "destination": "Kerala",
+  "region": "Kerala",
+  "style": "Mountains",
+  "styles": [
+    "Culture & heritage",
+    "Beaches",
+    "Family"
+  ],
+  "days": 4,
+  "nights": 3,
+  "image": "/assets/destinations/ponmudi.jpg",
+  "alt": "Layered green ridges of the Western Ghats seen from the top of Ponmudi",
+  "places": [
+    "Trivandrum",
+    "Ponmudi",
+    "Meenmutty Falls",
+    "Kovalam"
+  ],
+  "route": "Trivandrum → Ponmudi → Kovalam → Trivandrum",
+  "description": "City museums, a night in the hills and an unhurried finish by the sea.",
+  "pace": "One night each in the city, the hills and on the coast",
+  "ideal": "Families, couples & first-time visitors to the south",
+  "highlights": "Napier Museum, Ponmudi viewpoints, Meenmutty Falls, Kovalam beaches",
+  "itinerary": [
+    "Begin in Trivandrum with the Napier Museum, Sree Chithra Art Gallery and zoo, then Sree Padmanabhaswamy Temple and Kuthiramalika Palace after lunch.",
+    "Drive about two hours up to Ponmudi, taking in Peppara Wildlife Sanctuary, Golden Valley and the Meenmutty falls at Kallar before a night in the hills.",
+    "Descend to Kovalam by way of Koyikkal Palace, then spend the afternoon on Lighthouse and Eve’s beaches.",
+    "Visit Poovar Island and Azhimala Temple if time allows, then depart from Trivandrum airport or railway station."
+  ],
+  "notes": "Beach activities such as scuba diving and snorkelling cost extra. The Napier Museum closes on Mondays, and temple dress codes and entry rules apply. Forest spots and waterfalls on the Ponmudi road can close after heavy rain.",
+  "source": {
+    "title": "4 Days 3 Nights Trivandrum Kovalam Ponmudi Tour",
+    "url": "https://www.paradise-kerala.com/tourpackage/KTDC-exclusive-packages/4days-3nights-trivandrum-kovalam-ponmudi-trivandrum/",
+    "reviewed": "2026-10-24"
+  }
+}

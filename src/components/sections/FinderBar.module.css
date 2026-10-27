@@ -1,0 +1,127 @@
+/* Sits on the hero photo, under the headline; slides up just after the hero copy. While in use
+   (data-active) it moves up by --lift, set by FinderBar, to the top of the hero under the header. */
+@keyframes finderIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+}
+/* A rounded white bar of soft tiles: each field highlights on hover and while its list is open,
+   with the brand orange marking the open one. */
+.finder {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1.15fr 1fr auto;
+  align-items: stretch;
+  gap: 4px;
+  background: var(--surface);
+  /* Light card inside the hero, which sets light text for the photo. */
+  color: var(--ink);
+  padding: 8px;
+  border-radius: 24px;
+  box-shadow:
+    0 0 0 1px rgb(255 255 255 / 0.55),
+    0 1px 2px rgb(16 43 38 / 0.12),
+    0 28px 56px -24px rgb(8 32 27 / 0.6);
+  z-index: 2;
+  animation: finderIn var(--dur-reveal) var(--ease-out) 500ms backwards;
+  transition: transform var(--dur-slow) var(--ease-out);
+}
+.finder[data-active] {
+  transform: translateY(calc(-1 * var(--lift, 0px)));
+}
+/* No position here: the "Where to?" panel is placed against the whole finder. The padding sits on
+   the label and button inside, so the whole tile can be clicked. A 1px line between tiles is
+   drawn as a background, and disappears next to a highlighted tile. */
+.field {
+  min-width: 0;
+  border-radius: 18px;
+  transition: background-color var(--dur-fast) var(--ease-out);
+}
+.field + .field {
+  background: linear-gradient(var(--line), var(--line)) left center / 1px 44%
+    no-repeat;
+}
+.field:hover,
+.field + .field:hover {
+  background: color-mix(in srgb, var(--ink) 5%, transparent);
+}
+.field:has([aria-expanded="true"]),
+.field + .field:has([aria-expanded="true"]) {
+  background: color-mix(in srgb, var(--orange) 8%, transparent);
+  box-shadow: inset 0 0 0 1.5px
+    color-mix(in srgb, var(--orange) 50%, transparent);
+}
+.field:hover + .field,
+.field:has([aria-expanded="true"]) + .field {
+  background-image: none;
+}
+.label {
+  display: block;
+  cursor: pointer;
+  padding: 14px 20px 0;
+  font-size: var(--text-label);
+  font-weight: 600;
+  letter-spacing: var(--tracking-label);
+  color: var(--muted);
+}
+/* The field's toggle button (DestinationPicker or Dropdown); two selectors outrank its own. */
+.field > button {
+  padding: 6px 20px 14px;
+}
+/* Ink, not orange: orange text on the orange tint would fall below 4.5:1. */
+.field:has([aria-expanded="true"]) .label {
+  color: var(--ink);
+}
+.finder .submit {
+  margin-left: 4px;
+  border-radius: 18px;
+  padding-inline: 28px;
+  white-space: nowrap;
+}
+
+@media (max-width: 1100px) {
+  .label {
+    padding-inline: 14px;
+  }
+  .field > button {
+    padding-inline: 14px;
+  }
+  .finder .submit {
+    padding-inline: 18px;
+  }
+}
+/* Two columns, then one: each field becomes its own light tile, so no dividers. */
+@media (max-width: 800px) {
+  .finder {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    padding: 10px;
+    border-radius: 22px;
+  }
+  .field,
+  .field + .field {
+    background: var(--sand);
+  }
+  .finder .submit {
+    margin: 0;
+    padding-block: 16px;
+  }
+}
+@media (max-width: 540px) {
+  /* One field per row so the 16px option text isn't cut off. */
+  .finder {
+    grid-template-columns: 1fr;
+    border-radius: 20px;
+  }
+  .label {
+    padding-top: 12px;
+  }
+  .field > button {
+    padding-bottom: 12px;
+  }
+  .finder .submit {
+    padding: 16px;
+    gap: 10px;
+  }
+}

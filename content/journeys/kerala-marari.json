@@ -1,0 +1,35 @@
+{
+  "name": "Marari Shore and Village Life",
+  "order": 80,
+  "destination": "Kerala",
+  "region": "Kerala",
+  "style": "Beaches",
+  "styles": [
+    "Slow escapes",
+    "Honeymoon"
+  ],
+  "days": 3,
+  "nights": 2,
+  "image": "/assets/destinations/marari.jpg",
+  "alt": "Waves along the sandy shoreline of Marari Beach",
+  "places": [
+    "Kochi",
+    "Marari"
+  ],
+  "route": "Kochi → Marari → Kochi",
+  "description": "Room for the beach, village life and time at your stay.",
+  "pace": "Two nights at a coastal base",
+  "ideal": "Couples & travellers seeking a slower break",
+  "highlights": "Marari Beach, Fishing harbour, Canal canoe ride",
+  "itinerary": [
+    "Head from Kochi to Marari, explore the organic farm and butterfly garden, and spend sunset on the beach before meditation or cultural activities.",
+    "Combine yoga with a fishing-harbour walk or cycle, herbal and vegetable gardens, a canal canoe ride, beach time, Ayurveda and a Kerala cooking demonstration.",
+    "Enjoy a final beach walk before returning to Kochi, allowing for Fort Kochi sightseeing or shopping if there is time before departure."
+  ],
+  "notes": "Garden, wellness and cooking experiences are resort-specific; request a stay that offers them. Kochi sightseeing depends on departure time.",
+  "source": {
+    "title": "3 Days 2 Nights Cochin–Marari–Cochin",
+    "url": "https://www.paradise-kerala.com/tourpackage/Cgh-earth-exclusive-packages/3days-2nights-cochin-marari-cochin/",
+    "reviewed": "2026-10-19"
+  }
+}

@@ -1,0 +1,25 @@
+.chip {
+  background: transparent;
+  border: 1px solid var(--control);
+  border-radius: 999px;
+  padding: 10px 18px;
+  font-size: var(--text-sm);
+  transition:
+    background-color var(--dur-base) var(--ease-out),
+    border-color var(--dur-base) var(--ease-out),
+    color var(--dur-base) var(--ease-out);
+}
+.chip:hover {
+  border-color: var(--ink);
+}
+.chip.active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .chip {
+    padding: 8px 14px;
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Royal roads of Rajasthan",
+  "order": 190,
+  "destination": "Rajasthan",
+  "region": "West",
+  "style": "Culture & heritage",
+  "days": 7,
+  "nights": 6,
+  "image": "/assets/rajasthan.jpg",
+  "alt": "Hawa Mahal’s ornate pink facade in Jaipur",
+  "places": [
+    "Jaipur",
+    "Jodhpur",
+    "Udaipur"
+  ],
+  "route": "Jaipur → Jodhpur → Udaipur",
+  "description": "Pink-city lanes, blue-city stories and evenings beside the lake.",
+  "pace": "Active sightseeing & longer road days",
+  "ideal": "Culture lovers, couples & friends",
+  "highlights": "Jaipur palaces, Jodhpur lanes, Udaipur lakes",
+  "itinerary": [
+    "Arrive in Jaipur and take an easy first walk through the Pink City.",
+    "Spend the day exploring Jaipur’s forts, palaces and bazaars.",
+    "Travel to Jodhpur, with stops to be agreed around your interests.",
+    "Explore Mehrangarh and the older lanes of the Blue City.",
+    "Journey to Udaipur and settle in for a lakeside evening.",
+    "Discover Udaipur’s palaces and leave time for independent exploring.",
+    "Depart from Udaipur or discuss an extension."
+  ]
+}

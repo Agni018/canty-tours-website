@@ -1,0 +1,325 @@
+/* Photo header: the journey's photo behind its name, darkened towards the bottom where the text
+   sits. The top padding clears the fixed header (94px). */
+.hero {
+  position: relative;
+  display: grid;
+  align-items: end;
+  min-height: min(72svh, 660px);
+  padding: 134px 0 48px;
+  color: var(--on-dark);
+}
+.backdrop {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: var(--ink); /* shown until the photo loads */
+}
+.backdrop img {
+  height: 100%;
+}
+.backdrop::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, #08201ba6, transparent 200px),
+    linear-gradient(0deg, #08201be6, #08201b99 60%, #08201b59);
+}
+.heroContent {
+  position: relative;
+}
+.crumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 22px;
+  padding: 0;
+  list-style: none;
+  font-size: var(--text-xs);
+  color: var(--on-dark);
+}
+.crumbs li + li::before {
+  content: "/";
+  margin-right: 8px;
+}
+.crumbs a {
+  color: var(--on-dark);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 3px;
+  transition: text-decoration-color var(--dur-fast) var(--ease-out);
+}
+.crumbs a:hover {
+  text-decoration-color: currentColor;
+}
+.hero h1 {
+  font-size: var(--text-h1);
+  max-width: 18ch;
+}
+.route {
+  max-width: 48rem;
+  margin-top: 16px;
+  color: var(--on-dark);
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 22px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.tags li {
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 0.12);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.4);
+  font-size: var(--text-xs);
+  font-weight: 600;
+}
+
+/* Route on the left, the enquiry form beside it, staying in view while the route scrolls. */
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 400px;
+  gap: 64px;
+  align-items: start;
+  padding: 72px 0 24px;
+}
+.main section + section {
+  margin-top: 56px;
+}
+.main h2 {
+  font-size: var(--text-h3);
+  margin-bottom: 18px;
+}
+.lead {
+  font-size: var(--text-lg);
+  color: var(--ink);
+  max-width: 40rem;
+}
+.facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 32px;
+  margin: 28px 0 0;
+}
+.facts div {
+  padding: 14px 0;
+  border-top: 1px solid var(--line);
+}
+.facts dt {
+  font-size: var(--text-label);
+  font-weight: 600;
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.facts dd {
+  margin: 4px 0 0;
+}
+.highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.highlights li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  font-size: var(--text-sm);
+  font-weight: 500;
+}
+.spark {
+  color: var(--accent-dark);
+}
+/* Timeline: a dot per day on a thin line. */
+.days {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.days li {
+  position: relative;
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: 20px;
+  padding-bottom: 26px;
+}
+.days li::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 20px;
+  bottom: 0;
+  width: 1px;
+  background: var(--line);
+}
+.days li:last-child::before {
+  display: none;
+}
+.dayNumber {
+  position: relative;
+  padding-left: 24px;
+  font-size: var(--text-label);
+  font-weight: 600;
+  letter-spacing: var(--tracking-label);
+  line-height: 1.9;
+  text-transform: uppercase;
+  color: var(--accent-dark);
+}
+.dayNumber::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--cream);
+  border: 2px solid var(--orange);
+}
+.days p {
+  color: var(--ink);
+}
+.note {
+  margin-top: 14px;
+  padding: 16px 20px;
+  border-radius: 12px;
+  background: var(--sand);
+  font-size: var(--text-sm);
+}
+.steps {
+  display: grid;
+  gap: 22px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.steps li {
+  display: flex;
+  gap: 18px;
+}
+.steps li > span {
+  font-size: var(--text-label);
+  font-weight: 600;
+  line-height: 1.9;
+  color: var(--accent-dark);
+}
+.steps h3 {
+  font-size: var(--text-base);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.steps p {
+  font-size: var(--text-sm);
+}
+/* Stays in view while the route scrolls, on screens tall enough to show all of it; it clears
+   the fixed header (94px). */
+@media (min-height: 820px) {
+  .aside {
+    position: sticky;
+    top: 112px;
+  }
+}
+.more {
+  background: var(--sand);
+  margin-top: 48px;
+}
+.more h2 {
+  font-size: var(--text-h3);
+  margin-bottom: 28px;
+}
+.moreGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.mobileBar {
+  display: none;
+}
+
+/* One column below 1100px: the form follows the route, and a bar at the bottom of the screen
+   jumps to it. */
+@media (max-width: 1100px) {
+  .layout {
+    grid-template-columns: 1fr;
+    gap: 48px;
+    padding-top: 56px;
+  }
+  .aside {
+    position: static;
+  }
+  .moreGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+  .mobileBar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 15;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 12px 20px calc(12px + env(safe-area-inset-bottom));
+    background: var(--surface);
+    border-top: 1px solid var(--line);
+    box-shadow: 0 -12px 30px -18px rgb(0 0 0 / 0.35);
+    font-size: var(--text-sm);
+    font-weight: 600;
+  }
+  .mobileBar small {
+    display: block;
+    font-size: var(--text-xs);
+    font-weight: 400;
+    color: var(--muted);
+  }
+  .mobileCta {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 18px;
+    border-radius: 10px;
+    background: var(--orange);
+    color: white;
+  }
+  /* Room under the footer so the bar never covers its last line. */
+  :global(body):has(.mobileBar) :global(footer) {
+    padding-bottom: 96px;
+  }
+}
+/* Phones held sideways: the bar would cover a fifth of the screen; the form is a scroll away. */
+@media (max-height: 500px) {
+  .mobileBar {
+    display: none;
+  }
+}
+@media (max-width: 540px) {
+  .hero {
+    min-height: 70svh;
+    padding: 100px 0 32px;
+  }
+  .facts {
+    grid-template-columns: 1fr;
+  }
+  .days li {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+  .days p {
+    padding-left: 24px;
+  }
+  .moreGrid {
+    grid-template-columns: 1fr;
+  }
+}

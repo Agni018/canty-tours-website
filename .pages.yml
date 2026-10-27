@@ -1,0 +1,261 @@
+# Pages CMS (https://pagescms.org): the editor Canty Tours uses to change journeys, "Where to?"
+# places and travel styles. Every save is a commit to this repository; the site then redeploys.
+# Keep this in step with the types in src/data and src/lib/content.ts: Pages CMS removes any key
+# that is not listed here when it saves a file.
+
+media:
+  input: public/assets
+  output: /assets
+  rename: safe
+  extensions: [jpg, jpeg, png, webp]
+
+content:
+  - name: journeys
+    label: Journeys
+    type: collection
+    path: content/journeys
+    format: json
+    filename: "{fields.name}.json"
+    view:
+      primary: name
+      fields: [name, region, days, order]
+      default:
+        sort: order
+        order: asc
+    operations:
+      # The file name is the journey page's address; renaming would break shared links.
+      rename: false
+    fields:
+      - name: name
+        label: Journey name
+        type: string
+        required: true
+        description: Also becomes the page address when the journey is created.
+      - name: order
+        label: Position
+        type: number
+        description: Lower numbers are shown first. Leave empty to show it after the others.
+      - name: destination
+        label: Destination
+        type: string
+        required: true
+        description: The state or area, e.g. Kerala, Goa or Kerala & Tamil Nadu.
+      - name: region
+        label: Region
+        type: select
+        required: true
+        options:
+          values: &regions
+            - { name: Kerala, label: Kerala }
+            - { name: North, label: North India }
+            - { name: South, label: South India }
+            - { name: West, label: West India }
+            - { name: Northeast, label: Northeast India }
+      - name: regions
+        label: Also shown under these regions
+        type: select
+        description: Only for a route that crosses regions, e.g. Kerala and South India.
+        options:
+          multiple: true
+          values: *regions
+      - name: regionLabel
+        label: Region text on the card
+        type: string
+        description: Optional, e.g. KERALA & TAMIL NADU. Leave empty to show the region.
+      - name: style
+        label: Main travel style
+        type: reference
+        required: true
+        options:
+          collection: styles
+          value: "{fields.name}"
+          label: "{fields.name}"
+      - name: styles
+        label: Other travel styles it suits
+        type: reference
+        options:
+          collection: styles
+          value: "{fields.name}"
+          label: "{fields.name}"
+          multiple: true
+      - name: days
+        label: Days
+        type: number
+        required: true
+        options: { min: 1 }
+      - name: nights
+        label: Nights
+        type: number
+        required: true
+        options: { min: 0 }
+      - name: image
+        label: Photo
+        type: image
+        required: true
+        description: A landscape JPEG, about 1200 px wide and under 300 KB.
+        options:
+          path: public/assets/destinations
+      - name: alt
+        label: Photo description
+        type: string
+        required: true
+        description: What the photo shows, for visitors who can't see it.
+      - name: credit
+        label: Photo credit
+        type: object
+        description: Only for a photo by someone else (e.g. Wikimedia or Unsplash). Leave empty for your own photos.
+        fields: &credit
+          - name: creator
+            label: Photographer
+            type: string
+          - name: license
+            label: Licence
+            type: string
+            description: e.g. CC BY-SA 4.0
+          - name: licenseUrl
+            label: Licence link
+            type: string
+          - name: sourcePage
+            label: Link to the photo's page
+            type: string
+      - name: places
+        label: Places on the route
+        type: string
+        list: true
+        required: true
+        description: One place per line. To appear under a "Where to?" photo, use that place's name (or its "Matches journeys listing" value), e.g. Munnar or Alappuzha.
+      - name: experiences
+        label: Experiences
+        type: string
+        list: true
+        description: Optional. Add Houseboat for a route with a houseboat stay or cruise.
+      - name: route
+        label: Route
+        type: string
+        required: true
+        description: e.g. Kochi → Munnar → Thekkady → Kochi
+      - name: description
+        label: Short description
+        type: text
+        required: true
+      - name: pace
+        label: Pace
+        type: string
+        required: true
+        description: e.g. Three nights in one base with excursions
+      - name: ideal
+        label: A good fit for
+        type: string
+        required: true
+        description: e.g. Families, couples & first-time visitors
+      - name: highlights
+        label: Highlights
+        type: string
+        required: true
+        description: Separated by commas, e.g. Waterfalls, Tea country, Periyar
+      - name: itinerary
+        label: Day by day
+        type: text
+        list: true
+        required: true
+        description: One entry per day, in order.
+      - name: notes
+        label: Practical notes
+        type: text
+        description: Optional, shown under the day-by-day route.
+      - name: planningNote
+        label: Extra caution
+        type: text
+        description: Optional, e.g. for high-altitude or permit-only trips.
+      - name: source
+        label: Published itinerary it is based on
+        type: object
+        description: Optional. Listed under "Itinerary sources" in the privacy notes.
+        fields:
+          - name: title
+            label: Title
+            type: string
+          - name: url
+            label: Link
+            type: string
+          - name: reviewed
+            label: Checked on
+            type: date
+            options: { format: yyyy-MM-dd }
+
+  - name: places
+    label: '"Where to?" places'
+    type: collection
+    path: content/places
+    format: json
+    filename: "{fields.name}.json"
+    view:
+      primary: name
+      fields: [name, region, order]
+      default:
+        sort: order
+        order: asc
+    fields:
+      - name: name
+        label: Place name
+        type: string
+        required: true
+        description: Shown under the photo. Journeys that list this name under Places appear when it is picked.
+      - name: order
+        label: Position
+        type: number
+        description: Lower numbers are shown first. Leave empty to show it after the others.
+      - name: value
+        label: Matches journeys listing
+        type: string
+        description: Optional. Only when journeys list this place under another name, e.g. Alappuzha for Alleppey.
+      - name: region
+        label: Region
+        type: select
+        description: Leave empty for places in Kerala.
+        options:
+          values: *regions
+      - name: tileName
+        label: Name on the photo tile
+        type: string
+        description: Optional, for a very long one-word name. Put a | where it may break, e.g. Thiruvanantha|puram.
+      - name: image
+        label: Photo
+        type: image
+        required: true
+        description: A landscape JPEG, about 1200 px wide and under 300 KB.
+        options:
+          path: public/assets/destinations
+      - name: alt
+        label: Photo description
+        type: string
+        required: true
+        description: What the photo shows, for visitors who can't see it.
+      - name: credit
+        label: Photo credit
+        type: object
+        description: Only for a photo by someone else (e.g. Wikimedia or Unsplash). Leave empty for your own photos.
+        fields: *credit
+
+  - name: styles
+    label: Travel styles
+    type: collection
+    path: content/styles
+    format: json
+    filename: "{fields.name}.json"
+    view:
+      primary: name
+      fields: [name, order]
+      default:
+        sort: order
+        order: asc
+    fields:
+      - name: name
+        label: Travel style
+        type: string
+        required: true
+        description: A filter on the journeys grid and in "Your kind of escape". Journeys pick theirs from this list.
+      - name: order
+        label: Position
+        type: number
+        description: Lower numbers are shown first.

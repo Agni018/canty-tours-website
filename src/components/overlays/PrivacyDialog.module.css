@@ -1,0 +1,21 @@
+.privacy a {
+  text-decoration: underline;
+}
+.privacy p {
+  margin: 15px 0;
+}
+.credits {
+  margin: 12px 0;
+  font-size: var(--text-sm);
+}
+.credits summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+.credits ul {
+  padding-left: 20px;
+  color: var(--muted);
+}
+.credits li {
+  margin: 8px 0;
+}

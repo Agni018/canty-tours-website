@@ -1,0 +1,12 @@
+{
+  "name": "Kollam",
+  "order": 140,
+  "image": "/assets/destinations/kollam.jpg",
+  "alt": "Ashtamudi Lake and the backwaters of Kollam",
+  "credit": {
+    "creator": "Rahul Pariharacodu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Ashtamudi_lake.jpg"
+  }
+}

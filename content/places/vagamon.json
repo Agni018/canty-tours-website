@@ -1,0 +1,12 @@
+{
+  "name": "Vagamon",
+  "order": 70,
+  "image": "/assets/destinations/vagamon.jpg",
+  "alt": "The rolling green meadows and hills of Vagamon",
+  "credit": {
+    "creator": "Bibin C. Alex (Bibinca)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Hills_Vagamon.jpg"
+  }
+}

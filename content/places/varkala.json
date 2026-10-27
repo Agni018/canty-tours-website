@@ -1,0 +1,12 @@
+{
+  "name": "Varkala",
+  "order": 160,
+  "image": "/assets/varkala.jpg",
+  "alt": "Varkala Beach beneath the coastal cliffs",
+  "credit": {
+    "creator": "Nandu Vasudevan",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "sourcePage": "https://unsplash.com/photos/BU0lMokk7tA"
+  }
+}

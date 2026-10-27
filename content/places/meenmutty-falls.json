@@ -1,0 +1,12 @@
+{
+  "name": "Meenmutty Falls",
+  "order": 200,
+  "image": "/assets/destinations/meenmutty.jpg",
+  "alt": "Meenmutty Falls tumbling between dark rocks into a forest pool at Kallar, near Ponmudi",
+  "credit": {
+    "creator": "Shubhammaurya94",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Meenmutty_Waterfalls.jpg"
+  }
+}

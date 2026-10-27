@@ -1,0 +1,35 @@
+{
+  "name": "An Overnight on Alleppey's Waterways",
+  "order": 20,
+  "destination": "Kerala",
+  "region": "Kerala",
+  "style": "Slow escapes",
+  "styles": [
+    "Honeymoon",
+    "Family"
+  ],
+  "days": 2,
+  "nights": 1,
+  "image": "/assets/destinations/houseboat.jpg",
+  "alt": "A traditional Kerala houseboat on the backwaters near Alleppey",
+  "places": [
+    "Kochi",
+    "Alappuzha",
+    "Houseboat"
+  ],
+  "route": "Kochi → Alappuzha → Kochi",
+  "description": "A short escape built around a night on the water.",
+  "pace": "One overnight stay with a morning return cruise",
+  "ideal": "Couples & short-break travellers",
+  "highlights": "Backwater cruising, Overnight houseboat, Alleppey Beach",
+  "itinerary": [
+    "Travel from Kochi to Alappuzha for noon boarding, an afternoon backwater cruise and a night aboard the anchored houseboat.",
+    "Take a morning cruise before 9 am checkout, visit Alappuzha Beach, then return to Kochi, with heritage sightseeing or shopping if departure time allows."
+  ],
+  "notes": "The boat anchors overnight; this is not continuous cruising. Kochi sightseeing depends on departure time.",
+  "source": {
+    "title": "2 Days Cochin Alleppey Houseboat Tour",
+    "url": "https://www.paradise-kerala.com/tourpackage/Kerala-Tour-Packages/2days-1night-weekend-in-houseboat/",
+    "reviewed": "2026-10-19"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Guruvayoor Temple and Kochi Heritage",
+  "order": 60,
+  "destination": "Kerala",
+  "region": "Kerala",
+  "style": "Culture & heritage",
+  "styles": [
+    "Family"
+  ],
+  "days": 3,
+  "nights": 2,
+  "image": "/assets/destinations/guruvayoor.jpg",
+  "alt": "The traditional entrance to Guruvayoor Sri Krishna Temple",
+  "places": [
+    "Kochi",
+    "Guruvayoor"
+  ],
+  "route": "Kochi → Guruvayoor → Kochi",
+  "description": "A temple-focused start followed by time in the city.",
+  "pace": "One night in Guruvayoor and one in Kochi",
+  "ideal": "Temple visitors & families",
+  "highlights": "Temple visit, Kochi heritage, Waterfront sightseeing",
+  "itinerary": [
+    "Travel from Kochi to Guruvayoor for Sree Krishna Temple, with an optional elephant care centre visit before staying overnight.",
+    "Explore Kochi's heritage sights and waterfront as time permits, with optional shopping and an overnight stay in the city.",
+    "Use available time for further Kochi sightseeing before departure from the airport, railway station or bus station."
+  ],
+  "notes": "Elephant viewing is from a distance. Kochi sightseeing depends on available time and opening days.",
+  "source": {
+    "title": "3 Days 2 Nights Guruvayoor",
+    "url": "https://www.paradise-kerala.com/tourpackage/Kerala-Tour-Packages/3days-2nights-Guruvayoor/",
+    "reviewed": "2026-10-19"
+  }
+}

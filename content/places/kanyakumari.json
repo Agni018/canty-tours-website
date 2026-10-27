@@ -1,0 +1,13 @@
+{
+  "name": "Kanyakumari",
+  "order": 210,
+  "region": "South",
+  "image": "/assets/destinations/kanyakumari.jpg",
+  "alt": "Vivekananda Rock Memorial off the coast of Kanyakumari",
+  "credit": {
+    "creator": "Ankit Darsi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Vivekananda_rock,_Kanyakumari.jpg"
+  }
+}

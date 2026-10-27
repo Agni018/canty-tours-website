@@ -1,0 +1,12 @@
+{
+  "name": "Chinnar",
+  "order": 50,
+  "image": "/assets/destinations/chinnar.jpg",
+  "alt": "Rugged peaks above the forested slopes of Chinnar Wildlife Sanctuary",
+  "credit": {
+    "creator": "Dipu TR",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Chinnar_-_panoramio.jpg"
+  }
+}

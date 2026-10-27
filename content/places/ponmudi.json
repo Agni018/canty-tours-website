@@ -1,0 +1,12 @@
+{
+  "name": "Ponmudi",
+  "order": 190,
+  "image": "/assets/destinations/ponmudi.jpg",
+  "alt": "Layered green ridges of the Western Ghats seen from the top of Ponmudi",
+  "credit": {
+    "creator": "Akhilan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Ponmudi_Climate_Observatory.jpg"
+  }
+}

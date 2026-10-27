@@ -1,0 +1,12 @@
+{
+  "name": "Athirapilly",
+  "order": 30,
+  "image": "/assets/destinations/athirapilly.jpg",
+  "alt": "Athirappilly waterfalls cascading over the rocks amid forest",
+  "credit": {
+    "creator": "Dil Shad Roshan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Athirappilly_Waterfalls_1.jpg"
+  }
+}

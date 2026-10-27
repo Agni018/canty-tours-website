@@ -1,0 +1,12 @@
+{
+  "name": "Cherai",
+  "order": 130,
+  "image": "/assets/destinations/cherai.jpg",
+  "alt": "Palm-lined golden sand along Cherai Beach on Vypin Island",
+  "credit": {
+    "creator": "Vis M",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Cherai_Beach_04.jpg"
+  }
+}

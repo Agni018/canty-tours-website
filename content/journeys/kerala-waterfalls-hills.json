@@ -1,0 +1,43 @@
+{
+  "name": "Waterfalls, Tea Country and Periyar",
+  "order": 10,
+  "destination": "Kerala",
+  "region": "Kerala",
+  "style": "Family",
+  "styles": [
+    "Mountains",
+    "Culture & heritage",
+    "Honeymoon"
+  ],
+  "days": 6,
+  "nights": 5,
+  "image": "/assets/destinations/athirapilly.jpg",
+  "alt": "Athirappilly waterfalls cascading over the rocks amid forest",
+  "places": [
+    "Kochi",
+    "Athirapilly",
+    "Munnar",
+    "Thekkady",
+    "Alappuzha",
+    "Houseboat"
+  ],
+  "route": "Kochi → Athirapilly → Kochi → Munnar → Thekkady → Alappuzha → Kochi",
+  "description": "Link waterfalls and hill country with a final night afloat.",
+  "pace": "Several transfer days between sightseeing stops",
+  "ideal": "Families, couples & first-time visitors",
+  "highlights": "Waterfalls, Tea country, Periyar, Houseboat",
+  "itinerary": [
+    "Visit Athirapilly and Vazhachal waterfalls, returning to Kochi overnight.",
+    "Continue to Munnar via Cheeyappara, Valara, tea estates and spice gardens.",
+    "Explore Eravikulam, the Tea Museum, Mattupetty, Echo Point, Kundala, Pothamedu and botanical gardens.",
+    "Travel to Thekkady, with optional Periyar boating and separately paid evening experiences.",
+    "Reach Alappuzha around noon for a houseboat cruise and anchored overnight stay.",
+    "Finish the morning cruise, visit Alappuzha beach and return to Kochi, adding sightseeing if time permits."
+  ],
+  "notes": "Periyar boating and evening activities are optional and cost extra. Check seasonal park access and attraction opening days.",
+  "source": {
+    "title": "6 Days 5 Nights Athirapilly Munnar Thekkady Alleppey",
+    "url": "https://www.paradise-kerala.com/tourpackage/Kerala-Tour-Packages/6days-5nights-Athirapilly-vazhachal-Cochin-Munnar-Thekkady-Allep/",
+    "reviewed": "2026-10-19"
+  }
+}

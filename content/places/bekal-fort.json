@@ -1,0 +1,13 @@
+{
+  "name": "Bekal Fort",
+  "order": 290,
+  "value": "Bekal",
+  "image": "/assets/destinations/bekal.jpg",
+  "alt": "A laterite walkway leading out to a round bastion of Bekal Fort above the Arabian Sea",
+  "credit": {
+    "creator": "Karippal.me",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Extension_of_Bekal_Fort_into_the_Arabian_Sea.jpg"
+  }
+}

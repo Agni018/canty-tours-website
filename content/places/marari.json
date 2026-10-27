@@ -1,0 +1,12 @@
+{
+  "name": "Marari",
+  "order": 110,
+  "image": "/assets/destinations/marari.jpg",
+  "alt": "Waves along the sandy shoreline of Marari Beach",
+  "credit": {
+    "creator": "Mahendra M",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Marari_Beach_Shoreline.JPG"
+  }
+}

@@ -1,0 +1,104 @@
+@keyframes listIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+}
+/* The list is positioned against this box. */
+.dropdown {
+  position: relative;
+}
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  min-height: 30px;
+  padding: 4px 0;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font-size: var(--text-base);
+  text-align: left;
+}
+.toggle > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.chevron {
+  transition: transform var(--dur-base) var(--ease-out);
+}
+.toggle[aria-expanded="true"] .chevron {
+  transform: rotate(180deg);
+}
+.list {
+  position: absolute;
+  top: calc(100% + 14px);
+  left: 0;
+  right: 0;
+  min-width: 220px;
+  padding: 6px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: 0 24px 60px -20px rgb(23 56 46 / 0.35);
+  z-index: 6;
+  animation: listIn var(--dur-base) var(--ease-out);
+}
+/* 44px rows: comfortable to tap. */
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 12px;
+  background: transparent;
+  color: var(--ink);
+  font-size: var(--text-base);
+  text-align: left;
+  transition: background-color var(--dur-fast) var(--ease-out);
+}
+.option:hover {
+  background: color-mix(in srgb, var(--ink) 5%, transparent);
+}
+/* The chosen option uses the brand orange, like the open field in the finder. */
+.option[aria-pressed="true"] {
+  background: color-mix(in srgb, var(--orange) 8%, transparent);
+  font-weight: 600;
+}
+.check {
+  visibility: hidden;
+  color: var(--orange);
+}
+.option[aria-pressed="true"] .check {
+  visibility: visible;
+}
+
+/* Boxed: matches the inputs in Field, for dropdowns inside forms. */
+.formLabel {
+  display: block;
+  font-size: var(--text-xs);
+  font-weight: 500;
+}
+.boxed .toggle {
+  min-height: 48px;
+  margin-top: 6px;
+  padding: 12px;
+  border: 1px solid var(--control);
+  border-radius: 10px;
+  background: var(--surface);
+  transition: border-color var(--dur-fast) var(--ease-out);
+}
+.boxed .toggle:hover,
+.boxed .toggle[aria-expanded="true"] {
+  border-color: var(--ink);
+}
+.boxed .list {
+  top: calc(100% + 6px);
+}

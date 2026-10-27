@@ -1,0 +1,29 @@
+{
+  "name": "Sikkim, softly explored",
+  "order": 220,
+  "destination": "Sikkim",
+  "region": "Northeast",
+  "style": "Mountains",
+  "days": 6,
+  "nights": 5,
+  "image": "/assets/sikkim.jpg",
+  "alt": "Colourful hillside buildings in Gangtok, Sikkim",
+  "places": [
+    "Gangtok",
+    "Ravangla",
+    "Pelling"
+  ],
+  "route": "Gangtok → Ravangla → Pelling",
+  "description": "Monastery mornings, winding hill roads and mountain-town moments.",
+  "pace": "Scenic hill drives & moderate walking",
+  "ideal": "Nature lovers, couples & families",
+  "highlights": "Gangtok, Ravangla, Pelling viewpoints",
+  "itinerary": [
+    "Arrive via your agreed gateway and transfer to Gangtok.",
+    "Explore Gangtok’s town centre and nearby cultural sights.",
+    "Enjoy a flexible day around Gangtok, with local visits agreed in advance.",
+    "Travel towards Pelling via Ravangla, allowing time for scenic stops.",
+    "Explore Pelling’s surroundings and viewpoints, weather permitting.",
+    "Transfer to your departure point with generous time for hill-road travel."
+  ]
+}

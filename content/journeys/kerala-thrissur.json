@@ -1,0 +1,29 @@
+{
+  "name": "Thrissur Temples and Classical Arts",
+  "order": 130,
+  "destination": "Kerala",
+  "region": "Kerala",
+  "style": "Culture & heritage",
+  "styles": [
+    "Family"
+  ],
+  "days": 3,
+  "nights": 2,
+  "image": "/assets/destinations/thrissur.jpg",
+  "alt": "The tiered, tiled southern gateway tower of Vadakkunnathan Temple in Thrissur",
+  "places": [
+    "Kochi",
+    "Thrissur"
+  ],
+  "route": "Kochi → Thrissur → Kochi",
+  "description": "Kerala’s cultural capital, from temple grounds to classical arts.",
+  "pace": "Two nights in Thrissur with short excursions",
+  "ideal": "Culture lovers, families & festival-goers",
+  "highlights": "Vadakkunnathan Temple, Shakthan Thampuran Palace, Kerala Kalamandalam",
+  "itinerary": [
+    "Travel from Kochi to Thrissur to walk Thekkinkadu Maidan, the Pooram festival ground around Vadakkunnathan Temple, then visit Shakthan Thampuran Palace.",
+    "Drive to Cheruthuruthy for Kerala Kalamandalam, the academy for Kathakali, Mohiniyattam and other classical arts, then return for Our Lady of Dolours Basilica and the city’s markets.",
+    "Return to Kochi for departure, detouring to Athirapilly waterfalls if time allows."
+  ],
+  "notes": "Temples have dress codes and entry rules, and some admit only Hindus. Kalamandalam visits depend on the academy’s schedule, and Thrissur Pooram is held in April or May on dates set each year."
+}

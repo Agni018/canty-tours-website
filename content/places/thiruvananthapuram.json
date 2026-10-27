@@ -1,0 +1,14 @@
+{
+  "name": "Thiruvananthapuram",
+  "order": 180,
+  "value": "Trivandrum",
+  "tileName": "Thiruvanantha|puram",
+  "image": "/assets/destinations/thiruvananthapuram.jpg",
+  "alt": "The red-and-white gabled Napier Museum in Thiruvananthapuram",
+  "credit": {
+    "creator": "Shagil Kannur",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Napier_Museum_of_Thiruvananthapuram,_Kerala_05.jpg"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Palaruvi Falls",
+  "order": 150,
+  "image": "/assets/destinations/palaruvi.jpg",
+  "alt": "Palaruvi Falls streaming down a steep rock face into a boulder-strewn pool",
+  "credit": {
+    "creator": "Noon Plastic",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Palaruvi_Waterfalls,_June_2022_02.jpg"
+  }
+}

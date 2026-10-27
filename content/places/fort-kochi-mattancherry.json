@@ -1,0 +1,13 @@
+{
+  "name": "Fort Kochi & Mattancherry",
+  "order": 120,
+  "value": "Fort Kochi",
+  "image": "/assets/destinations/fort-kochi.jpg",
+  "alt": "Chinese fishing nets silhouetted against the evening sky at Fort Kochi",
+  "credit": {
+    "creator": "Challiyil Eswaramangalath Vipin",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Chinese_fishingnet_kochi.jpg"
+  }
+}

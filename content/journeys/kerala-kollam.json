@@ -1,0 +1,39 @@
+{
+  "name": "Ashtamudi Waterways and Island Crafts",
+  "order": 90,
+  "destination": "Kerala",
+  "region": "Kerala",
+  "style": "Culture & heritage",
+  "styles": [
+    "Slow escapes",
+    "Family"
+  ],
+  "days": 3,
+  "nights": 2,
+  "image": "/assets/destinations/kollam.jpg",
+  "alt": "Ashtamudi Lake and the backwaters of Kollam",
+  "places": [
+    "Trivandrum",
+    "Kollam",
+    "Munroe Island"
+  ],
+  "experiences": [
+    "Houseboat"
+  ],
+  "route": "Trivandrum → Kollam → Trivandrum",
+  "description": "Explore waterways and everyday life around a lakeside base.",
+  "pace": "A village excursion between arrival and departure days",
+  "ideal": "Small groups & culture lovers",
+  "highlights": "Jatayu Earth's Centre, Ashtamudi Lake, Munroe Island",
+  "itinerary": [
+    "Travel from Trivandrum through Chadayamangalam for Jatayu Earth's Centre, then continue to Paravoor in Kollam for a relaxed evening.",
+    "Cruise Ashtamudi by houseboat, then canoe through Munroe Island’s canals for village life, fishing, coir-making and farming, with lunch in a village home.",
+    "Return to Trivandrum for departure, adding temple, palace, gallery, zoo or planetarium visits if time permits."
+  ],
+  "notes": "Trivandrum sightseeing depends on departure time. A Kollam rail departure with a possible lighthouse stop is an alternative.",
+  "source": {
+    "title": "3 Days 2 Nights Trivandrum–Kollam–Trivandrum",
+    "url": "https://www.paradise-kerala.com/tourpackage/Experiential-tours/3days-2nights-trivandrum-kollam-trivandrum/",
+    "reviewed": "2026-10-19"
+  }
+}

@@ -1,0 +1,46 @@
+/* Slides up each time it appears (it is display: none while empty). */
+@keyframes barIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 24px);
+  }
+}
+.bar {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(660px, calc(100% - 24px));
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  padding: 14px 16px 14px 24px;
+  border-radius: 12px;
+  box-shadow: 0 16px 50px -16px rgb(0 0 0 / 0.35);
+  z-index: 7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  font-size: var(--text-sm);
+  animation: barIn var(--dur-slow) var(--ease-out);
+}
+.bar > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 540px) {
+  .bar {
+    padding: 12px;
+    font-size: var(--text-xs);
+  }
+  .bar > div {
+    gap: 12px;
+  }
+  /* The extra "div" outranks Button's .button.small padding. */
+  .bar > div > .open {
+    padding: 10px 12px;
+  }
+}

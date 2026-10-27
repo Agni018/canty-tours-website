@@ -1,0 +1,45 @@
+{
+  "name": "Southern Shores to Alleppey Backwaters",
+  "order": 180,
+  "destination": "Kerala & Tamil Nadu",
+  "region": "South",
+  "regions": [
+    "Kerala",
+    "South"
+  ],
+  "regionLabel": "KERALA & TAMIL NADU",
+  "style": "Beaches",
+  "styles": [
+    "Family",
+    "Slow escapes"
+  ],
+  "days": 6,
+  "nights": 5,
+  "image": "/assets/destinations/kanyakumari.jpg",
+  "alt": "Vivekananda Rock Memorial off the coast of Kanyakumari",
+  "places": [
+    "Kanyakumari",
+    "Kovalam",
+    "Alappuzha",
+    "Houseboat"
+  ],
+  "route": "Trivandrum → Kanyakumari → Kovalam → Alappuzha → Kochi",
+  "description": "Combine the southern coast with a final night on the backwaters.",
+  "pace": "Several coastal stays followed by a houseboat night",
+  "ideal": "Couples, families & coast lovers",
+  "highlights": "Vivekananda Rock, Kovalam shore, Overnight houseboat",
+  "itinerary": [
+    "Travel to Kanyakumari for Vivekananda Rock, the beach and sunset.",
+    "Enjoy Kanyakumari’s sunrise and temple before an afternoon transfer to Kovalam.",
+    "Choose Kovalam beach time or Trivandrum’s temple, palace and museum sights.",
+    "Move to Alappuzha for a beach visit, shopping and a relaxed resort evening.",
+    "Board an Alappuzha houseboat at noon, cruise in the afternoon and anchor overnight.",
+    "Finish the morning cruise, disembark at 9 am and leave through Kochi, sightseeing if time permits."
+  ],
+  "notes": "Sunrise and sunset depend on weather. The houseboat anchors overnight and resumes cruising in the morning.",
+  "source": {
+    "title": "6 Days 5 Nights Kanyakumari Alleppey Tour",
+    "url": "https://www.paradise-kerala.com/tourpackage/Kerala-Tour-Packages/6days-5nights-kanyakumari-alleppey-tour/",
+    "reviewed": "2026-10-19"
+  }
+}

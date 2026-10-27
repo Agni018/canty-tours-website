@@ -1,0 +1,12 @@
+{
+  "name": "Guruvayoor",
+  "order": 10,
+  "image": "/assets/destinations/guruvayoor.jpg",
+  "alt": "The traditional entrance to Guruvayoor Sri Krishna Temple",
+  "credit": {
+    "creator": "Susmitanair",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Guruvayoor_Temple_1.jpg"
+  }
+}

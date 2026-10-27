@@ -1,0 +1,50 @@
+{
+  "name": "Hill Country & Tamil Temple Trail",
+  "order": 170,
+  "destination": "Kerala & Tamil Nadu",
+  "region": "South",
+  "regions": [
+    "Kerala",
+    "South"
+  ],
+  "regionLabel": "KERALA & TAMIL NADU",
+  "style": "Culture & heritage",
+  "styles": [
+    "Mountains",
+    "Beaches"
+  ],
+  "days": 8,
+  "nights": 7,
+  "image": "/assets/destinations/madurai.jpg",
+  "alt": "Ornate gopuram of Meenakshi Temple in Madurai",
+  "places": [
+    "Munnar",
+    "Thekkady",
+    "Madurai",
+    "Rameswaram",
+    "Kovalam",
+    "Kochi",
+    "Trivandrum"
+  ],
+  "route": "Kochi → Munnar → Thekkady → Madurai → Rameswaram → Kovalam → Trivandrum / Kochi",
+  "description": "A longer journey linking hill country, temple towns and the coast.",
+  "pace": "Several long transfers with sightseeing between stays",
+  "ideal": "Travellers comfortable with an active route",
+  "highlights": "Meenakshi Temple, Pamban Bridge, Kovalam",
+  "itinerary": [
+    "Reach Munnar from Kochi via waterfalls and plantations.",
+    "Explore Eravikulam, tea heritage, Mattupetty, Echo Point and Kundala.",
+    "Continue to Thekkady, with optional Periyar boating and evening activities.",
+    "Head to Madurai for Meenakshi Temple, Tirumalai Nayak Palace and Gandhi Museum, time permitting.",
+    "Travel to Rameswaram for Pamban Bridge, Dhanushkodi and temple visits.",
+    "Continue to Kovalam, choosing beach time or Trivandrum sightseeing as schedules allow.",
+    "Use another Kovalam day for the beach or Trivandrum’s temples and museums.",
+    "Depart through Trivandrum or take the longer return to Kochi."
+  ],
+  "notes": "Optional activities cost extra; visits depend on access and time. Trivandrum departure avoids the longer return to Kochi.",
+  "source": {
+    "title": "8 Days 7 Nights Madhurai Rameshwaram Tour",
+    "url": "https://www.paradise-kerala.com/tourpackage/Kerala-Tour-Packages/8days-7nights-madhurai-rameshwaram-tour/",
+    "reviewed": "2026-10-19"
+  }
+}

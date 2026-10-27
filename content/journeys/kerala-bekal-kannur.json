@@ -1,0 +1,42 @@
+{
+  "name": "Bekal Fort, Kavvayi and the Malabar Coast",
+  "order": 160,
+  "destination": "Kerala",
+  "region": "Kerala",
+  "style": "Culture & heritage",
+  "styles": [
+    "Beaches",
+    "Slow escapes"
+  ],
+  "days": 6,
+  "nights": 5,
+  "image": "/assets/destinations/bekal.jpg",
+  "alt": "A laterite walkway leading out to a round bastion of Bekal Fort above the Arabian Sea",
+  "places": [
+    "Bekal",
+    "Nileshwar",
+    "Kavvayi",
+    "Kannur",
+    "Muzhappilangad",
+    "Thalassery"
+  ],
+  "route": "Mangalore → Bekal → Kannur",
+  "description": "Sea forts, island backwaters and a beach you can drive along.",
+  "pace": "Three nights near Bekal, then two in Kannur",
+  "ideal": "Culture lovers, couples & repeat Kerala visitors",
+  "highlights": "Bekal Fort, Theyyam, Kavvayi backwaters, Muzhappilangad drive-in beach",
+  "itinerary": [
+    "Arrive at Mangalore airport or Kasaragod railway station and transfer to your stay near Bekal.",
+    "Visit Sri Anantha Padmanabha Swamy Temple and a Kasaragod saree-making unit, then explore Bekal Fort and end the day on Bekal Beach.",
+    "Watch a Theyyam performance in Kannur or Kasaragod, then lunch aboard a houseboat on the Tejaswini River at Nileshwar, returning to your stay by about 4 pm.",
+    "Visit Kunhimangalam and a handloom unit, Valiyaparamba and a coir-making home, with optional kayaking on the Kavvayi backwaters, before checking in at Kannur.",
+    "Explore St Angelo Fort, the Folklore Museum and a handloom centre, then Parassinikadavu’s Muthappan Temple and snake park, with sunset on Payyambalam Beach.",
+    "Drive along Muzhappilangad beach, walk to Dharmadam Island at low tide, and see Thalassery Pier, Overbury’s Folly, Gundert Bungalow and the Peralassery temple stepwell before departure from Kannur."
+  ],
+  "notes": "Theyyam follows each shrine’s own calendar and season, so what you can see depends on your dates. Kavvayi kayaking is optional, and Dharmadam Island can only be reached at low tide.",
+  "source": {
+    "title": "6 Days 5 Nights Bekal Kannur Tour Package",
+    "url": "https://www.paradise-kerala.com/tourpackage/North-Kerala-Tour-Packages/6days-5nights-mangalore-bekal-kannur-tour/",
+    "reviewed": "2026-10-24"
+  }
+}

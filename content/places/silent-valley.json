@@ -1,0 +1,12 @@
+{
+  "name": "Silent Valley",
+  "order": 260,
+  "image": "/assets/destinations/silent-valley.jpg",
+  "alt": "Grassy hills and dark shola forest in Silent Valley National Park",
+  "credit": {
+    "creator": "Davidvraju",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Shola_Forest_Silent_valley_NP_(3).jpg"
+  }
+}

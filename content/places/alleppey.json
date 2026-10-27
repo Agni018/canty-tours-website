@@ -1,0 +1,13 @@
+{
+  "name": "Alleppey",
+  "order": 90,
+  "value": "Alappuzha",
+  "image": "/assets/destinations/alleppey.jpg",
+  "alt": "Houseboats and palm-lined shores on the Alleppey backwaters",
+  "credit": {
+    "creator": "Ashish Sharma (Camouflaged)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:VembanadAlleppey.jpg"
+  }
+}

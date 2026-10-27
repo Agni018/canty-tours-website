@@ -1,0 +1,32 @@
+{
+  "name": "Nelliyampathy Hills and Silent Valley",
+  "order": 150,
+  "destination": "Kerala",
+  "region": "Kerala",
+  "style": "Mountains",
+  "styles": [
+    "Slow escapes",
+    "Family"
+  ],
+  "days": 4,
+  "nights": 3,
+  "image": "/assets/destinations/nelliyampathy.jpg",
+  "alt": "A lone tree on the cliff edge at Seetharkundu viewpoint in Nelliyampathy, above the plains",
+  "places": [
+    "Palakkad",
+    "Nelliyampathy",
+    "Silent Valley"
+  ],
+  "route": "Palakkad → Nelliyampathy → Mannarkkad (Silent Valley) → Palakkad",
+  "description": "Two quiet corners of Palakkad: a cool hill station and protected rainforest.",
+  "pace": "Two nights in the hills, then an early start for Silent Valley",
+  "ideal": "Nature lovers, birdwatchers & repeat Kerala visitors",
+  "highlights": "Pothundy Dam, Seetharkundu viewpoint, Silent Valley rainforest",
+  "itinerary": [
+    "Arrive in Palakkad and climb into Nelliyampathy past Pothundy Dam and the hairpin bends of the ghat road, with the evening at your hill stay.",
+    "Spend the day at Seetharkundu and Kesavanpara viewpoints, the orange and vegetable farm and the surrounding tea and coffee estates.",
+    "Descend to the plains for Palakkad Fort, then continue to Mannarkkad near Silent Valley for the night.",
+    "Start early for Mukkali, where forest department jeeps and guides take visitors to the Sairandhri watchtower, then return to Palakkad for departure."
+  ],
+  "notes": "Silent Valley visits need advance forest department permission, begin in the morning and run only in their vehicles with a guide. Coimbatore airport is an alternative arrival point."
+}

@@ -1,0 +1,33 @@
+.scroll {
+  overflow-x: auto;
+  margin: 28px 0;
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: var(--text-sm);
+  min-width: 550px;
+}
+.table th,
+.table td {
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+  padding: 16px 14px;
+  min-width: 160px;
+}
+.table thead th {
+  font: 400 var(--text-xl) / 1.2 var(--serif);
+  letter-spacing: var(--tracking-heading);
+}
+/* Row labels, and the corner cell, read as uppercase labels. */
+.table th:first-child {
+  min-width: 110px;
+  width: 130px;
+  font: 600 var(--text-label) / 1.6 var(--sans);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+}
+.table .planButton {
+  padding: 10px 14px;
+}

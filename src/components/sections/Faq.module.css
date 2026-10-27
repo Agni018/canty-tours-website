@@ -1,0 +1,90 @@
+.faq {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 100px;
+}
+.faq > div > p:not(.eyebrow) {
+  margin-top: 24px;
+  font-size: var(--text-base);
+  line-height: 1.9;
+}
+.faq > div > p a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: color var(--dur-fast) var(--ease-out);
+}
+.faq > div > p a:hover {
+  color: var(--orange);
+}
+.list details {
+  border-bottom: 1px solid var(--line);
+  padding: 18px 0;
+}
+.list details:first-child {
+  padding-top: 0;
+}
+.list summary {
+  list-style: none;
+  cursor: pointer;
+  font-size: var(--text-base);
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  transition: color var(--dur-fast) var(--ease-out);
+}
+.list summary:hover {
+  color: var(--orange);
+}
+.list summary::-webkit-details-marker {
+  display: none;
+}
+.list summary span {
+  font-size: 1.375rem;
+  font-weight: 300;
+  line-height: 1;
+  transition: transform var(--dur-base) var(--ease-out);
+}
+.list details[open] summary span {
+  transform: rotate(45deg);
+}
+/* Answers slide open where the browser supports animating to height: auto. */
+.list details::details-content {
+  block-size: 0;
+  overflow: hidden;
+  transition:
+    block-size var(--dur-slow) var(--ease-out),
+    content-visibility var(--dur-slow) allow-discrete;
+}
+.list details[open]::details-content {
+  block-size: auto;
+}
+.list details p {
+  font-size: var(--text-base);
+  padding: 14px 28px 4px 0;
+}
+.list a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 1100px) {
+  .faq {
+    gap: 60px;
+  }
+}
+@media (max-width: 800px) {
+  .faq {
+    gap: 32px;
+  }
+}
+@media (max-width: 540px) {
+  .faq {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .faq h2 br {
+    display: none;
+  }
+}
