@@ -16,7 +16,7 @@ import { asset, cx } from "@/lib/utils";
 import styles from "./DestinationPicker.module.css";
 
 type DestinationPickerProps = {
-  /** Column styles from the finder. */
+  /** Column styles from the finders. */
   className?: string;
   labelClassName?: string;
 };
